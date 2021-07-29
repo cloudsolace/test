@@ -21,7 +21,7 @@
  },
  "rules": [
   {
-   "id": 1626846874356.5178,
+   "id": 1627596621933.992,
    "name": "Default",
    "active": true,
    "method": "",
@@ -68,9 +68,7 @@
     "s200": {
      "schema": {},
      "faker": {},
-     "static": {
-      "success": true
-     },
+     "static": {},
      "merge": {
       "endpoints": []
      }
@@ -97,5 +95,6 @@
  "modifiedEmail": "hello@mockswitch.com",
  "createdBy": "hellomocks",
  "id": "py_sktwirnkkroa2bxi",
- "_endpoint": "/py_sktwirnkkroa2bxi/get/api/v1/examplecopy"
+ "_endpoint": "/py_sktwirnkkroa2bxi/get/api/v1/examplecopy",
+ "modifiedOn": 1627596666410
 }
