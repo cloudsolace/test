@@ -21,7 +21,7 @@
  },
  "rules": [
   {
-   "id": 1627596621933.992,
+   "id": 1627596685969.7622,
    "name": "Default",
    "active": true,
    "method": "",
@@ -64,7 +64,7 @@
    "responses": {
     "respType": "static",
     "svcCode": "s200",
-    "userDataPath": "get_api_v1_example_CASE_1.json",
+    "userDataPath": "get_api_v1_examplecopy_case_1.json",
     "s200": {
      "schema": {},
      "faker": {},
@@ -96,5 +96,5 @@
  "createdBy": "hellomocks",
  "id": "py_sktwirnkkroa2bxi",
  "_endpoint": "/py_sktwirnkkroa2bxi/get/api/v1/examplecopy",
- "modifiedOn": 1627596666410
+ "modifiedOn": 1627596701301
 }
