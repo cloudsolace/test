@@ -21,7 +21,7 @@
  },
  "rules": [
   {
-   "id": 1627596702033.8896,
+   "id": 1627596785968.593,
    "name": "Default",
    "active": true,
    "method": "",
@@ -69,7 +69,29 @@
      "schema": {},
      "faker": {},
      "static": {
-      "status": false
+      "glossary": {
+       "title": "example glossary",
+       "GlossDiv": {
+        "title": "S",
+        "GlossList": {
+         "GlossEntry": {
+          "ID": "SGML",
+          "SortAs": "SGML",
+          "GlossTerm": "Standard Generalized Markup Language",
+          "Acronym": "SGML",
+          "Abbrev": "ISO 8879:1986",
+          "GlossDef": {
+           "para": "A meta-markup language, used to create markup languages such as DocBook.",
+           "GlossSeeAlso": [
+            "GML",
+            "XML"
+           ]
+          },
+          "GlossSee": "marksup"
+         }
+        }
+       }
+      }
      },
      "merge": {
       "endpoints": []
@@ -98,5 +120,5 @@
  "createdBy": "hellomocks",
  "id": "py_sktwirnkkroa2bxi",
  "_endpoint": "/py_sktwirnkkroa2bxi/get/api/v1/examplecopy",
- "modifiedOn": 1627596785114
+ "modifiedOn": 1627596877237
 }
