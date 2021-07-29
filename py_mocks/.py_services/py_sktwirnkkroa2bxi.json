@@ -21,7 +21,7 @@
  },
  "rules": [
   {
-   "id": 1627596685969.7622,
+   "id": 1627596702033.8896,
    "name": "Default",
    "active": true,
    "method": "",
@@ -68,7 +68,9 @@
     "s200": {
      "schema": {},
      "faker": {},
-     "static": {},
+     "static": {
+      "status": false
+     },
      "merge": {
       "endpoints": []
      }
@@ -96,5 +98,5 @@
  "createdBy": "hellomocks",
  "id": "py_sktwirnkkroa2bxi",
  "_endpoint": "/py_sktwirnkkroa2bxi/get/api/v1/examplecopy",
- "modifiedOn": 1627596701301
+ "modifiedOn": 1627596785114
 }
