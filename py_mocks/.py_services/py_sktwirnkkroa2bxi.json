@@ -21,7 +21,7 @@
  },
  "rules": [
   {
-   "id": 1627596785968.593,
+   "id": 1627598035292.5188,
    "name": "Default",
    "active": true,
    "method": "",
@@ -63,7 +63,7 @@
    },
    "responses": {
     "respType": "static",
-    "svcCode": "s200",
+    "svcCode": "s205",
     "userDataPath": "get_api_v1_examplecopy_case_1.json",
     "s200": {
      "schema": {},
@@ -96,7 +96,8 @@
      "merge": {
       "endpoints": []
      }
-    }
+    },
+    "s205": {}
    },
    "transType": "merge"
   }
@@ -120,5 +121,5 @@
  "createdBy": "hellomocks",
  "id": "py_sktwirnkkroa2bxi",
  "_endpoint": "/py_sktwirnkkroa2bxi/get/api/v1/examplecopy",
- "modifiedOn": 1627596877237
+ "modifiedOn": 1627598041583
 }
