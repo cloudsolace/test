@@ -1,0 +1,101 @@
+{
+ "state": "DRFT",
+ "method": "GET",
+ "name": "get_api_v1_examplecopy",
+ "endpoint": "/api/v1/examplecopy",
+ "vRules": {
+  "request": false,
+  "default": true,
+  "rules": true,
+  "proxy": false
+ },
+ "requests": {
+  "body": {
+   "required": false,
+   "schema": {},
+   "faker": {}
+  },
+  "paths": [],
+  "queries": [],
+  "headers": []
+ },
+ "rules": [
+  {
+   "id": 1626846874356.5178,
+   "name": "Default",
+   "active": true,
+   "method": "",
+   "primaryKey": "",
+   "stateful": false,
+   "rule": {},
+   "transform": {},
+   "requestValidation": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "preTransform": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "responses": {
+    "respType": "static",
+    "svcCode": "s200",
+    "userDataPath": "get_api_v1_example_CASE_1.json",
+    "s200": {
+     "schema": {},
+     "faker": {},
+     "static": {
+      "success": true
+     },
+     "merge": {
+      "endpoints": []
+     }
+    }
+   },
+   "transType": "merge"
+  }
+ ],
+ "pairings": {
+  "static": {
+   "path": "",
+   "fileName": "",
+   "originalName": "",
+   "rows": -1,
+   "samples": []
+  }
+ },
+ "delay": null,
+ "tags": [],
+ "references": [],
+ "_update": true,
+ "active": true,
+ "modifiedBy": "hellomocks",
+ "modifiedEmail": "hello@mockswitch.com",
+ "createdBy": "hellomocks",
+ "id": "py_sktwirnkkroa2bxi",
+ "_endpoint": "/py_sktwirnkkroa2bxi/get/api/v1/examplecopy"
+}
