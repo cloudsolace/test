@@ -21,7 +21,7 @@
  },
  "rules": [
   {
-   "id": 1627449879951.707,
+   "id": 1627713341126.132,
    "name": "Default",
    "active": true,
    "method": "",
@@ -63,18 +63,41 @@
    },
    "responses": {
     "respType": "static",
-    "svcCode": "s200",
+    "svcCode": "s202",
     "userDataPath": "get_api_v1_examplecopy_case_1.json",
     "s200": {
      "schema": {},
      "faker": {},
      "static": {
-      "success": false
+      "glossary": {
+       "title": "example glossary",
+       "GlossDiv": {
+        "title": "S",
+        "GlossList": {
+         "GlossEntry": {
+          "ID": "SGML",
+          "SortAs": "SGML",
+          "GlossTerm": "Standard Generalized Markup Language",
+          "Acronym": "SGML",
+          "Abbrev": "ISO 8879:1986",
+          "GlossDef": {
+           "para": "A meta-markup language, used to create markup languages such as DocBook.",
+           "GlossSeeAlso": [
+            "GML",
+            "XML"
+           ]
+          },
+          "GlossSee": "marksup"
+         }
+        }
+       }
+      }
      },
      "merge": {
       "endpoints": []
      }
-    }
+    },
+    "s202": {}
    },
    "transType": "merge"
   }
@@ -93,7 +116,7 @@
  "references": [],
  "_update": true,
  "active": true,
- "modifiedOn": 1627449886944,
+ "modifiedOn": 1627713351269,
  "modifiedBy": "hellomocks",
  "modifiedEmail": "hello@mockswitch.com",
  "createdBy": "hellomocks",
