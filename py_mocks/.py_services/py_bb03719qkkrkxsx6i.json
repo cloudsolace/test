@@ -21,7 +21,231 @@
  },
  "rules": [
   {
-   "id": 1627713341126.132,
+   "id": 1627782239413,
+   "name": "RESP-4",
+   "active": true,
+   "method": "",
+   "primaryKey": "",
+   "stateful": false,
+   "rule": {},
+   "transform": {},
+   "requestValidation": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "preTransform": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "responses": {
+    "respType": "static",
+    "svcCode": "s200",
+    "userDataPath": "post_api_v1_examplecopy_case_1.json",
+    "s200": {
+     "schema": {},
+     "faker": {},
+     "static": {},
+     "merge": {
+      "endpoints": []
+     }
+    }
+   },
+   "transType": "merge"
+  },
+  {
+   "id": 1627782239224,
+   "name": "RESP-3",
+   "active": true,
+   "method": "",
+   "primaryKey": "",
+   "stateful": false,
+   "rule": {},
+   "transform": {},
+   "requestValidation": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "preTransform": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "responses": {
+    "respType": "static",
+    "svcCode": "s200",
+    "userDataPath": "post_api_v1_examplecopy_case_2.json",
+    "s200": {
+     "schema": {},
+     "faker": {},
+     "static": {},
+     "merge": {
+      "endpoints": []
+     }
+    }
+   },
+   "transType": "merge"
+  },
+  {
+   "id": 1627782239033,
+   "name": "RESP-2",
+   "active": true,
+   "method": "",
+   "primaryKey": "",
+   "stateful": false,
+   "rule": {},
+   "transform": {},
+   "requestValidation": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "preTransform": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "responses": {
+    "respType": "static",
+    "svcCode": "s200",
+    "userDataPath": "post_api_v1_examplecopy_case_3.json",
+    "s200": {
+     "schema": {},
+     "faker": {},
+     "static": {},
+     "merge": {
+      "endpoints": []
+     }
+    }
+   },
+   "transType": "merge"
+  },
+  {
+   "id": 1627782238373,
+   "name": "RESP-1",
+   "active": true,
+   "method": "",
+   "primaryKey": "",
+   "stateful": false,
+   "rule": {},
+   "transform": {},
+   "requestValidation": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "preTransform": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "responses": {
+    "respType": "static",
+    "svcCode": "s200",
+    "userDataPath": "post_api_v1_examplecopy_case_4.json",
+    "s200": {
+     "schema": {},
+     "faker": {},
+     "static": {},
+     "merge": {
+      "endpoints": []
+     }
+    }
+   },
+   "transType": "merge"
+  },
+  {
+   "id": 1627782232699.052,
    "name": "Default",
    "active": true,
    "method": "",
@@ -64,7 +288,7 @@
    "responses": {
     "respType": "static",
     "svcCode": "s202",
-    "userDataPath": "get_api_v1_examplecopy_case_1.json",
+    "userDataPath": "post_api_v1_examplecopy_case_1.json",
     "s200": {
      "schema": {},
      "faker": {},
@@ -116,7 +340,7 @@
  "references": [],
  "_update": true,
  "active": true,
- "modifiedOn": 1627713351269,
+ "modifiedOn": 1627782263853,
  "modifiedBy": "hellomocks",
  "modifiedEmail": "hello@mockswitch.com",
  "createdBy": "hellomocks",
