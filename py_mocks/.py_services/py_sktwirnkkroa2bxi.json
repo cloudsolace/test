@@ -21,7 +21,7 @@
  },
  "rules": [
   {
-   "id": 1628026649045.9302,
+   "id": 1628026654856.1895,
    "name": "Default",
    "active": true,
    "method": "",
@@ -71,7 +71,6 @@
      "static": {
       "glossary": {
        "GlossDiv": {
-        "title": "S",
         "GlossList": {
          "GlossEntry": {
           "ID": "SGML",
@@ -120,5 +119,5 @@
  "createdBy": "hellomocks",
  "id": "py_sktwirnkkroa2bxi",
  "_endpoint": "/py_sktwirnkkroa2bxi/get/api/v1/examplecopy",
- "modifiedOn": 1628026653904
+ "modifiedOn": 1628026658557
 }
