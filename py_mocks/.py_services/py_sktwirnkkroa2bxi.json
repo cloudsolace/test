@@ -21,7 +21,7 @@
  },
  "rules": [
   {
-   "id": 1628026639075.1897,
+   "id": 1628026649045.9302,
    "name": "Default",
    "active": true,
    "method": "",
@@ -70,7 +70,6 @@
      "faker": {},
      "static": {
       "glossary": {
-       "title": "example 2",
        "GlossDiv": {
         "title": "S",
         "GlossList": {
@@ -121,5 +120,5 @@
  "createdBy": "hellomocks",
  "id": "py_sktwirnkkroa2bxi",
  "_endpoint": "/py_sktwirnkkroa2bxi/get/api/v1/examplecopy",
- "modifiedOn": 1628026643522
+ "modifiedOn": 1628026653904
 }
