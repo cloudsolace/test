@@ -21,7 +21,7 @@
  },
  "rules": [
   {
-   "id": 1627969149417.3271,
+   "id": 1627969789456.0308,
    "name": "Default",
    "active": true,
    "method": "",
@@ -121,5 +121,5 @@
  "createdBy": "hellomocks",
  "id": "py_sktwirnkkroa2bxi",
  "_endpoint": "/py_sktwirnkkroa2bxi/get/api/v1/examplecopy",
- "modifiedOn": 1627969156187
+ "modifiedOn": 1627969791306
 }
