@@ -21,6 +21,55 @@
  },
  "rules": [
   {
+   "id": "9qywv",
+   "name": "ResponseCase1",
+   "active": false,
+   "method": "",
+   "primaryKey": "",
+   "stateful": false,
+   "rule": {},
+   "postTransform": {},
+   "requestValidation": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "preTransform": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "responses": {
+    "respType": "static",
+    "svcCode": "s200",
+    "userDataPath": "get_api_v1_examplecopy_case_1.json",
+    "body": {}
+   },
+   "transType": "merge"
+  },
+  {
    "id": "defaultRule",
    "name": "Default",
    "active": true,
@@ -143,5 +192,5 @@
  "createdBy": "hellomocks",
  "id": "py_sktwirnkkroa2bxi",
  "_endpoint": "/py_sktwirnkkroa2bxi/get/api/v1/examplecopy",
- "modifiedOn": 1628526279340
+ "modifiedOn": 1628624593714
 }
