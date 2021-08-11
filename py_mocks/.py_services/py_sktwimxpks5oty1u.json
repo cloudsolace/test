@@ -21,7 +21,65 @@
  },
  "rules": [
   {
-   "id": "default",
+   "id": "bi2jj",
+   "name": "ResponseCase1",
+   "active": true,
+   "method": "",
+   "primaryKey": "",
+   "stateful": false,
+   "rule": {
+    "all": [
+     {
+      "fact": "header",
+      "operator": "equal",
+      "value": "true",
+      "path": ".x-hello"
+     }
+    ]
+   },
+   "postTransform": {},
+   "requestValidation": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "preTransform": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "responses": {
+    "respType": "static",
+    "svcCode": "s200",
+    "userDataPath": "get_api_v1_examplecopy_case_1.json",
+    "body": {}
+   },
+   "transType": "merge"
+  },
+  {
+   "id": "defaultRule",
    "name": "Default",
    "active": true,
    "method": "",
@@ -74,9 +132,11 @@
      "merge": {
       "endpoints": []
      }
-    }
+    },
+    "body": {}
    },
-   "transType": "merge"
+   "transType": "merge",
+   "defaultRule": true
   }
  ],
  "pairings": {
@@ -97,5 +157,6 @@
  "modifiedEmail": "hello@mockswitch.com",
  "createdBy": "hellomocks",
  "id": "py_sktwimxpks5oty1u",
- "_endpoint": "/py_sktwimxpks5oty1u/get/api/v1/examplecopy"
+ "_endpoint": "/py_sktwimxpks5oty1u/get/api/v1/examplecopy",
+ "modifiedOn": 1628692187483
 }
