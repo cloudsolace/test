@@ -74,7 +74,9 @@
     "respType": "static",
     "svcCode": "s200",
     "userDataPath": "get_api_v1_examplecopy_case_1.json",
-    "body": {}
+    "body": {
+     "test": true
+    }
    },
    "transType": "merge"
   },
@@ -122,7 +124,7 @@
    "responses": {
     "respType": "static",
     "svcCode": "s200",
-    "userDataPath": "get_api_v1_example_CASE_1.json",
+    "userDataPath": "get_api_v1_examplecopy_case_2.json",
     "s200": {
      "schema": {},
      "faker": {},
@@ -158,5 +160,5 @@
  "createdBy": "hellomocks",
  "id": "py_sktwimxpks5oty1u",
  "_endpoint": "/py_sktwimxpks5oty1u/get/api/v1/examplecopy",
- "modifiedOn": 1628692187483
+ "modifiedOn": 1628692200112
 }
