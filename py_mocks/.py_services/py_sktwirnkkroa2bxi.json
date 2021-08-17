@@ -21,55 +21,6 @@
  },
  "rules": [
   {
-   "id": "9qywv",
-   "name": "ResponseCase1",
-   "active": false,
-   "method": "",
-   "primaryKey": "",
-   "stateful": false,
-   "rule": {},
-   "postTransform": {},
-   "requestValidation": {
-    "body": {
-     "required": false,
-     "schema": {},
-     "faker": {}
-    },
-    "headers": [
-     {
-      "propKey": "Content-Type",
-      "propValue": "application/json",
-      "active": true
-     }
-    ],
-    "paths": [],
-    "queries": []
-   },
-   "preTransform": {
-    "body": {
-     "required": false,
-     "schema": {},
-     "faker": {}
-    },
-    "headers": [
-     {
-      "propKey": "Content-Type",
-      "propValue": "application/json",
-      "active": true
-     }
-    ],
-    "paths": [],
-    "queries": []
-   },
-   "responses": {
-    "respType": "static",
-    "svcCode": "s200",
-    "userDataPath": "get_api_v1_examplecopy_case_1.json",
-    "body": {}
-   },
-   "transType": "merge"
-  },
-  {
    "id": "defaultRule",
    "name": "Default",
    "active": true,
@@ -146,27 +97,7 @@
     },
     "s205": {},
     "body": {
-     "glossary": {
-      "GlossDiv": {
-       "GlossList": {
-        "GlossEntry": {
-         "ID": "SGML",
-         "SortAs": "SGML",
-         "GlossTerm": "Standard Generalized Markup Language",
-         "Acronym": "SGML",
-         "Abbrev": "ISO 8879:1986",
-         "GlossDef": {
-          "para": "A meta-markup language, used to create markup languages such as DocBook.",
-          "GlossSeeAlso": [
-           "GML",
-           "XML"
-          ]
-         },
-         "GlossSee": "marksup"
-        }
-       }
-      }
-     }
+     "test": true
     }
    },
    "transType": "merge",
@@ -188,9 +119,9 @@
  "_update": true,
  "active": true,
  "modifiedBy": "hellomocks",
- "modifiedEmail": "hello@mockswitch.com",
+ "modifiedEmail": "abhinandan142@gmail.com",
  "createdBy": "hellomocks",
  "id": "py_sktwirnkkroa2bxi",
  "_endpoint": "/py_sktwirnkkroa2bxi/get/api/v1/examplecopy",
- "modifiedOn": 1628624593714
+ "modifiedOn": 1629214894717
 }
