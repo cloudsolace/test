@@ -135,7 +135,9 @@
       "endpoints": []
      }
     },
-    "body": {}
+    "body": {
+     "test": false
+    }
    },
    "transType": "merge",
    "defaultRule": true
@@ -160,5 +162,5 @@
  "createdBy": "hellomocks",
  "id": "py_sktwimxpks5oty1u",
  "_endpoint": "/py_sktwimxpks5oty1u/get/api/v1/examplecopy",
- "modifiedOn": 1630381273458
+ "modifiedOn": 1630381365934
 }
