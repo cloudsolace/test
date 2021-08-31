@@ -31,7 +31,7 @@
     "all": [
      {
       "fact": "header",
-      "operator": "equal",
+      "operator": "regex",
       "value": ":ENV1",
       "path": ".x-hello"
      }
@@ -162,5 +162,5 @@
  "createdBy": "hellomocks",
  "id": "py_sktwimxpks5oty1u",
  "_endpoint": "/py_sktwimxpks5oty1u/get/api/v1/examplecopy",
- "modifiedOn": 1630382041055
+ "modifiedOn": 1630398779356
 }
