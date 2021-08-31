@@ -32,7 +32,7 @@
      {
       "fact": "header",
       "operator": "equal",
-      "value": "true",
+      "value": ":ENV1",
       "path": ".x-hello"
      }
     ]
@@ -156,9 +156,9 @@
  "_update": true,
  "active": true,
  "modifiedBy": "hellomocks",
- "modifiedEmail": "hello@mockswitch.com",
+ "modifiedEmail": "abhinandan142@gmail.com",
  "createdBy": "hellomocks",
  "id": "py_sktwimxpks5oty1u",
  "_endpoint": "/py_sktwimxpks5oty1u/get/api/v1/examplecopy",
- "modifiedOn": 1628692200112
+ "modifiedOn": 1630380905930
 }
