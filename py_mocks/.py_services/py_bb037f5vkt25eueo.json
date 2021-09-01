@@ -1,0 +1,94 @@
+{
+ "state": "DRFT",
+ "method": "GET",
+ "name": "get_",
+ "endpoint": "/",
+ "vRules": {
+  "request": false,
+  "default": true,
+  "rules": true,
+  "proxy": false,
+  "static": false
+ },
+ "requests": {
+  "body": {
+   "required": false,
+   "schema": {},
+   "faker": {}
+  },
+  "paths": [],
+  "queries": [],
+  "headers": []
+ },
+ "rules": [
+  {
+   "id": "defaultRule",
+   "defaultRule": true,
+   "name": "Default",
+   "active": true,
+   "method": "",
+   "primaryKey": "",
+   "stateful": false,
+   "rule": {},
+   "postTransform": {},
+   "requestValidation": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "preTransform": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "responses": {
+    "respType": "static",
+    "svcCode": "s200",
+    "userDataPath": "get__case_1.json",
+    "body": {}
+   },
+   "transType": "merge"
+  }
+ ],
+ "pairings": {
+  "static": {
+   "path": "",
+   "fileName": "",
+   "originalName": "",
+   "rows": -1,
+   "samples": []
+  }
+ },
+ "delay": "3",
+ "tags": [],
+ "references": [],
+ "_update": true,
+ "active": true,
+ "modifiedBy": "hellomocks",
+ "modifiedEmail": "abhinandan142@gmail.com",
+ "createdBy": "hellomocks",
+ "id": "py_bb037f5vkt25eueo",
+ "_endpoint": "/py_bb037f5vkt25eueo/get/"
+}
