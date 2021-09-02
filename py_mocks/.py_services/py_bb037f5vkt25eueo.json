@@ -66,8 +66,10 @@
    "responses": {
     "respType": "static",
     "svcCode": "s200",
-    "userDataPath": "get___case_1.json",
-    "body": {}
+    "userDataPath": "post_api_product_create_case_1.json",
+    "body": {
+     "created": true
+    }
    },
    "transType": "merge"
   }
@@ -86,10 +88,10 @@
  "references": [],
  "_update": true,
  "active": true,
- "modifiedOn": 1630626030161,
+ "modifiedOn": 1630626044089,
  "modifiedBy": "hellomocks",
  "modifiedEmail": "ab.panda@yahoo.com",
  "createdBy": "hellomocks",
  "id": "py_bb037f5vkt25eueo",
- "_endpoint": "/py_bb037f5vkt25eueo/get/"
+ "_endpoint": "/py_bb037f5vkt25eueo/post/api/product/create"
 }
