@@ -66,7 +66,7 @@
    "responses": {
     "respType": "static",
     "svcCode": "s200",
-    "userDataPath": "get__case_1.json",
+    "userDataPath": "get_hello_case_1.json",
     "body": {}
    },
    "transType": "merge"
@@ -86,10 +86,10 @@
  "references": [],
  "_update": true,
  "active": true,
- "modifiedOn": 1630541293247,
+ "modifiedOn": 1630541620497,
  "modifiedBy": "hellomocks",
  "modifiedEmail": "abhinandan142@gmail.com",
  "createdBy": "hellomocks",
  "id": "py_bb037f5vkt25eueo",
- "_endpoint": "/py_bb037f5vkt25eueo/get/"
+ "_endpoint": "/py_bb037f5vkt25eueo/get/hello"
 }
