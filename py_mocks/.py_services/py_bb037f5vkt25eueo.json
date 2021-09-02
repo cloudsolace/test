@@ -1,8 +1,8 @@
 {
  "state": "DRFT",
  "method": "GET",
- "name": "get_hello",
- "endpoint": "/hello",
+ "name": "get_",
+ "endpoint": "/",
  "vRules": {
   "request": false,
   "default": true,
@@ -86,7 +86,7 @@
  "references": [],
  "_update": true,
  "active": true,
- "modifiedOn": 1630542127399,
+ "modifiedOn": 1630542155739,
  "modifiedBy": "hellomocks",
  "modifiedEmail": "abhinandan142@gmail.com",
  "createdBy": "hellomocks",
