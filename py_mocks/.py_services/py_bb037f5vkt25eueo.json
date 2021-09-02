@@ -1,8 +1,8 @@
 {
  "state": "DRFT",
- "method": "GET",
- "name": "get_",
- "endpoint": "/",
+ "method": "POST",
+ "name": "post_api_product_create",
+ "endpoint": "/api/product/create",
  "vRules": {
   "request": false,
   "default": true,
@@ -86,10 +86,10 @@
  "references": [],
  "_update": true,
  "active": true,
- "modifiedOn": 1630542286506,
+ "modifiedOn": 1630626030161,
  "modifiedBy": "hellomocks",
- "modifiedEmail": "abhinandan142@gmail.com",
+ "modifiedEmail": "ab.panda@yahoo.com",
  "createdBy": "hellomocks",
  "id": "py_bb037f5vkt25eueo",
- "_endpoint": "/py_bb037f5vkt25eueo/get//"
+ "_endpoint": "/py_bb037f5vkt25eueo/get/"
 }
