@@ -29,7 +29,22 @@
    "method": "",
    "primaryKey": "",
    "stateful": false,
-   "rule": {},
+   "rule": {
+    "all": [
+     {
+      "fact": "json",
+      "operator": "equal",
+      "value": "",
+      "path": ""
+     },
+     {
+      "fact": "header",
+      "operator": "equal",
+      "value": "",
+      "path": ""
+     }
+    ]
+   },
    "postTransform": {},
    "requestValidation": {
     "body": {
@@ -86,7 +101,7 @@
  "references": [],
  "_update": true,
  "active": true,
- "modifiedOn": 1630541620497,
+ "modifiedOn": 1630541967491,
  "modifiedBy": "hellomocks",
  "modifiedEmail": "abhinandan142@gmail.com",
  "createdBy": "hellomocks",
