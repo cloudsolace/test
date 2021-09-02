@@ -1,8 +1,8 @@
 {
  "state": "DRFT",
  "method": "GET",
- "name": "get_",
- "endpoint": "/",
+ "name": "get__",
+ "endpoint": "//",
  "vRules": {
   "request": false,
   "default": true,
@@ -66,7 +66,7 @@
    "responses": {
     "respType": "static",
     "svcCode": "s200",
-    "userDataPath": "get_hello_case_1.json",
+    "userDataPath": "get__case_1.json",
     "body": {}
    },
    "transType": "merge"
@@ -81,15 +81,15 @@
    "samples": []
   }
  },
- "delay": "3",
+ "delay": null,
  "tags": [],
  "references": [],
  "_update": true,
  "active": true,
- "modifiedOn": 1630542155739,
+ "modifiedOn": 1630542198586,
  "modifiedBy": "hellomocks",
  "modifiedEmail": "abhinandan142@gmail.com",
  "createdBy": "hellomocks",
  "id": "py_bb037f5vkt25eueo",
- "_endpoint": "/py_bb037f5vkt25eueo/get/hello"
+ "_endpoint": "/py_bb037f5vkt25eueo/get/"
 }
