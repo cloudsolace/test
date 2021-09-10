@@ -19,7 +19,7 @@
  },
  "rules": [
   {
-   "id": "default",
+   "id": "defaultRule",
    "name": "Default",
    "defaultRule": true,
    "active": true,
@@ -65,7 +65,7 @@
     "svcCode": "s200",
     "userDataPath": "get_examples_default_basiccopy_case_1.json",
     "body": {
-     "success": true
+     "hello": "world"
     }
    },
    "transType": "merge"
@@ -85,6 +85,7 @@
  "references": [],
  "_update": true,
  "active": true,
+ "modifiedOn": 1631259396896,
  "modifiedBy": "hellomocks",
  "modifiedEmail": "hello@mockswitch.com",
  "createdBy": "hellomocks",
