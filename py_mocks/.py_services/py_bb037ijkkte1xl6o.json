@@ -1,0 +1,104 @@
+{
+ "method": "GET",
+ "name": "get_examples_default_schemacopy",
+ "endpoint": "/examples/default/schemacopy",
+ "vRules": {
+  "request": false,
+  "default": true,
+  "rules": true,
+  "proxy": false
+ },
+ "requests": {
+  "body": {
+   "required": false,
+   "schema": {},
+   "faker": {}
+  },
+  "paths": [],
+  "queries": [],
+  "headers": []
+ },
+ "rules": [
+  {
+   "id": "default",
+   "name": "Default",
+   "defaultRule": true,
+   "active": true,
+   "method": "",
+   "primaryKey": "",
+   "stateful": false,
+   "rule": {},
+   "postTransform": {},
+   "requestValidation": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "preTransform": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "responses": {
+    "respType": "faker",
+    "svcCode": "s200",
+    "userDataPath": "get_examples_default_schemacopy_case_1.json",
+    "body": {
+     "$schema": "http://json-schema.org/draft-04/schema#",
+     "description": "",
+     "type": "object",
+     "properties": {
+      "success": {
+       "type": "boolean"
+      }
+     },
+     "required": [
+      "success"
+     ]
+    }
+   },
+   "transType": "merge"
+  }
+ ],
+ "pairings": {
+  "static": {
+   "path": "",
+   "fileName": "",
+   "originalName": "",
+   "rows": -1,
+   "samples": []
+  }
+ },
+ "delay": null,
+ "tags": [],
+ "references": [],
+ "_update": true,
+ "active": true,
+ "modifiedBy": "hellomocks",
+ "modifiedEmail": "hello@mockswitch.com",
+ "createdBy": "hellomocks",
+ "id": "py_bb037ijkkte1xl6o",
+ "_endpoint": "/py_bb037ijkkte1xl6o/get/examples/default/schemacopy"
+}
