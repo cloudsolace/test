@@ -70,7 +70,7 @@
        {
         "endpoint": "http://localhost:9033/examples/default/schemacopy",
         "method": "GET",
-        "timeout": "0"
+        "timeout": "200"
        }
       ]
      }
@@ -93,7 +93,7 @@
  "references": [],
  "_update": true,
  "active": true,
- "modifiedOn": 1631380777753,
+ "modifiedOn": 1631384812487,
  "modifiedBy": "Abhi Panda",
  "modifiedEmail": "abhinandan142@gmail.com",
  "createdBy": "hellomocks",
