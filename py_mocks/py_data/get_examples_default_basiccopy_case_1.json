@@ -4,7 +4,7 @@
    {
     "endpoint": "http://localhost:9033/examples/default/schemacopy",
     "method": "GET",
-    "timeout": "200"
+    "timeout": "500"
    }
   ]
  }
