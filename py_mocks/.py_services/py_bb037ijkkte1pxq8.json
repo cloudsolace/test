@@ -61,11 +61,19 @@
     "queries": []
    },
    "responses": {
-    "respType": "static",
+    "respType": "merge",
     "svcCode": "s200",
     "userDataPath": "get_examples_default_basiccopy_case_1.json",
     "body": {
-     "hello": "world"
+     "merge": {
+      "endpoints": [
+       {
+        "endpoint": "http://localhost:9033/examples/default/schemacopy",
+        "method": "GET",
+        "timeout": 0
+       }
+      ]
+     }
     }
    },
    "transType": "merge"
@@ -85,9 +93,9 @@
  "references": [],
  "_update": true,
  "active": true,
- "modifiedOn": 1631259396896,
- "modifiedBy": "hellomocks",
- "modifiedEmail": "hello@mockswitch.com",
+ "modifiedOn": 1631379263149,
+ "modifiedBy": "Abhi Panda",
+ "modifiedEmail": "abhinandan142@gmail.com",
  "createdBy": "hellomocks",
  "id": "py_bb037ijkkte1pxq8",
  "_endpoint": "/py_bb037ijkkte1pxq8/get/examples/default/basiccopy"
